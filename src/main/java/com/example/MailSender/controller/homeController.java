@@ -43,8 +43,8 @@ public class homeController {
 		
 		newDetailsRepository.save(newDetails);
 
-		message.setFrom("ktanmay728@gmail.com");
-        message.setTo("Ktanmay1130@gmail.com");
+		message.setFrom("");
+        message.setTo("");
         message.setSubject("Subject : Sample Email Subject");
         
         message.setText("name: " + newDetails.getName()  + "\n" + "Email: " + newDetails.getEmail()  + "\n" + "PhoneNumber: " + newDetails.getPhoneNumber());
